@@ -23,7 +23,7 @@ import java.util.List;
 @Mixin(BatEntity.class)
 public abstract class BatEntityMixin extends AmbientEntity {
     @Unique
-    private static final double WAKE_RANGE = 4.0D;
+    private static final double WAKE_RANGE = 4.0D; //approximately)
 
     @Unique
     private static final double FORGET_RANGE = 24.0D;
@@ -125,7 +125,7 @@ public abstract class BatEntityMixin extends AmbientEntity {
 
         Vec3d steering = direction.normalize().multiply(FLIGHT_SPEED);
         setVelocity(getVelocity().multiply(0.85D).add(steering));
-        getLookControl().lookAt(target, 30.0F, 30.0F);
+        getLookControl().lookAt(target, 30.0F, 30.0F); 
         velocityDirty = true;
     }
 
