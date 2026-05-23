@@ -3,7 +3,7 @@
   "id": "bat_minecraft",
   "version": "${version}",
   "name": "Bat Minecraft",
-  "description": "Makes sleeping bats wake up and attack nearby players.",
+  "description": "Makes sleeping bats wake up and attack nearby players)",
   "authors": [
     "tempis335"
   ],
