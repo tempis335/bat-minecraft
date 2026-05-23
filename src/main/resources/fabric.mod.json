@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bat_minecraft",
+  "version": "${version}",
+  "name": "Bat Minecraft",
+  "description": "Makes sleeping bats wake up and attack nearby players.",
+  "authors": [
+    "tempis335"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "bat_minecraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}

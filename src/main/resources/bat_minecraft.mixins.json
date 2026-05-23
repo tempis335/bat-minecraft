@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.tempis335.batminecraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BatEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
