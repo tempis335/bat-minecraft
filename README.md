@@ -4,9 +4,6 @@ Fabric mod for Minecraft `1.21.4` that makes sleeping bats aggressive toward nea
 
 When a player approaches a bat while it is roosting upside down under a block, the bat wakes up, targets that player, flies toward them, and attacks at close range. Creative mode players and spectators are ignored.
 
-https://github.com/user-attachments/assets/b57b3aa3-b809-49ea-9a9b-4fdbae348941
-
-
 ## Requirements
 
 - Java 21
